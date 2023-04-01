@@ -1,0 +1,1926 @@
+{
+  "cough_1": {
+    "sounds": [ "jojo:af/cough1_1", "jojo:af/cough1_2", "jojo:af/cough1_3" ]
+  },
+  "cough_2": {
+    "sounds": [ "jojo:af/cough2_1", "jojo:af/cough2_2", "jojo:af/cough2_3", "jojo:af/cough2_4", "jojo:af/cough2_5" ]
+  },
+  "cough_3": {
+    "sounds": [ "jojo:af/cough3_1", "jojo:af/cough3_2", "jojo:af/cough3_3", "jojo:af/cough3_4" ]
+  },
+  "stone_mask_activation_entity": {
+    "subtitle": "jojo.subtitle.stone_mask_activation_entity",
+    "sounds": [ "jojo:stone_mask_activation_entity" ]
+  },
+  "stone_mask_activation": {
+    "subtitle": "jojo.subtitle.stone_mask_activation",
+    "sounds": [ "jojo:stone_mask_activation" ]
+  },
+  "stone_mask_deactivation": {
+    "subtitle": "jojo.subtitle.stone_mask_deactivation",
+    "sounds": [ "jojo:stone_mask_deactivation" ]
+  },
+  "blade_hat_throw": {
+    "subtitle": "jojo.subtitle.blade_hat_throw",
+    "sounds": [ "jojo:blade_hat_throw" ]
+  },
+  "blade_hat_spinning": {
+    "subtitle": "jojo.subtitle.blade_hat_spinning",
+    "sounds": [ "jojo:blade_hat_spinning_1", "jojo:blade_hat_spinning_2", "jojo:blade_hat_spinning_3" ]
+  },
+  "blade_hat_entity_hit": {
+    "subtitle": "jojo.subtitle.blade_hat_entity_hit",
+    "sounds": [ "jojo:blade_hat_entity_hit" ]
+  },
+  "pillar_man_awakening": {
+    "subtitle": "jojo.subtitle.pillar_man_awakening",
+    "sounds": [ "jojo:pillar_man_awakening" ]
+  },
+  "aja_stone_charging": {
+    "subtitle": "jojo.subtitle.aja_stone_charging",
+    "sounds": [ "jojo:aja_stone_charging" ]
+  },
+  "aja_stone_beam": {
+    "subtitle": "jojo.subtitle.aja_stone_beam",
+    "sounds": [ "jojo:aja_stone_beam" ]
+  },
+  "clackers": {
+    "subtitle": "jojo.subtitle.clackers",
+    "sounds": [ 
+      {
+        "name": "minecraft:random/anvil_land",
+        "pitch" : 2.0
+      }
+    ]
+  },
+  "tommy_gun_shot": {
+    "subtitle": "jojo.subtitle.tommy_gun_shot",
+    "sounds": [ "jojo:bullet_shot" ]
+  },
+  "tommy_gun_no_ammo": {
+    "subtitle": "jojo.subtitle.tommy_gun_trigger",
+    "sounds": [ "jojo:tommy_gun_trigger" ]
+  },
+  "knife_throw": {
+    "subtitle": "jojo.subtitle.knife_throw",
+    "sounds": [ "jojo:knife_throw" ]
+  },
+  "knives_throw": {
+    "subtitle": "jojo.subtitle.knives_throw",
+    "sounds": [ "jojo:knives_throw" ]
+  },
+  "knife_hit": {
+    "subtitle": "jojo.subtitle.knife_hit",
+    "sounds": [ "jojo:knife_hit" ]
+  },
+  "water_splash": {
+    "subtitle": "jojo.subtitle.liquid_splash",
+    "sounds": [ "jojo:water_splash" ]
+  },
+  "walkman_rewind": {
+    "sounds": [ "jojo:walkman_rewind" ]
+  },
+  "vampire_blood_drain": {
+    "subtitle": "jojo.subtitle.blood_drain",
+    "sounds": [ "jojo:vampire_blood_drain" ]
+  },
+  "vampire_freeze": {
+    "subtitle": "jojo.subtitle.freeze",
+    "sounds": [ "jojo:vampire_freeze" ]
+  },
+  "vampire_dark_aura": {
+    "sounds": [ "minecraft:mob/wither/spawn" ]
+  },
+  "vampire_cure_start": {
+    "subtitle": "jojo.subtitle.vampire_cure_start",
+    "sounds": [ "minecraft:mob/zombie/remedy" ]
+  },
+  "vampire_cure_end": {
+    "subtitle": "jojo.subtitle.vampire_cure_end",
+    "sounds": [ "minecraft:mob/zombie/unfect" ]
+  },
+  "hamon_pick_jonathan": {
+    "sounds": [ "jojo:hamon_pick_jonathan" ]
+  },
+  "hamon_pick_zeppeli": {
+    "sounds": [ "jojo:hamon_pick_zeppeli" ]
+  },
+  "hamon_pick_joseph": {
+    "sounds": [ "jojo:hamon_pick_joseph" ]
+  },
+  "hamon_pick_caesar": {
+    "sounds": [ "jojo:hamon_pick_caesar" ]
+  },
+  "hamon_pick_lisa_lisa": {
+    "sounds": [ "jojo:hamon_pick_lisa_lisa" ]
+  },
+  "hamon_spark": {
+    "subtitle": "jojo.subtitle.hamon_sparks",
+    "sounds": [ "jojo:hamon_spark", "jojo:hamon_spark_2" ]
+  },
+  "hamon_sparks_long": {
+    "subtitle": "jojo.subtitle.hamon_sparks",
+    "sounds": [ "jojo:hamon_sparks_long", "jojo:hamon_sparks_long_2", "jojo:hamon_sparks_long_3" ]
+  },
+  "hamon_sparks_loop": {
+    "subtitle": "jojo.subtitle.hamon_sparks",
+    "sounds": [ "jojo:hamon_sparks_loop" ]
+  },
+  "hamon_syo_charge": {
+    "subtitle": "jojo.subtitle.hamon_syo_charge",
+    "sounds": [ "jojo:hamon_syo_charge" ]
+  },
+  "hamon_syo_punch": {
+    "subtitle": "subtitles.entity.player.attack.strong",
+    "sounds": [ "jojo:punch_heavy" ]
+  },
+  "hamon_concentration": {
+    "subtitle": "jojo.subtitle.hamon_concentration",
+    "sounds": [ "jojo:hamon_concentration" ]
+  },
+  
+  "hamon_breath": {
+    "subtitle": "jojo.subtitle.hamon_breath",
+    "sounds": [ "minecraft:entity.player.breath" ]
+  },
+  "jonathan_breath": {
+    "subtitle": "jojo.subtitle.hamon_breath",
+    "sounds": [ "jojo:hamon_user/jonathan_breath" ]
+  },
+  "zeppeli_breath": {
+    "subtitle": "jojo.subtitle.hamon_breath",
+    "sounds": [ "jojo:hamon_user/zeppeli_breath" ]
+  },
+  "joseph_breath": {
+    "subtitle": "jojo.subtitle.hamon_breath",
+    "sounds": [ "jojo:hamon_user/joseph_breath" ]
+  },
+  "caesar_breath": {
+    "subtitle": "jojo.subtitle.hamon_breath",
+    "sounds": [ "jojo:hamon_user/caesar_breath" ]
+  },
+  "lisa_lisa_breath": {
+    "subtitle": "jojo.subtitle.hamon_breath",
+    "sounds": [ "jojo:hamon_user/lisa_lisa_breath" ]
+  },
+  "jonathan_sendo_overdrive": {
+    "subtitle": "jojo.subtitle.sendo_hamon_overdrive",
+    "sounds": [ "jojo:hamon_user/jonathan_sendo_hamon_overdrive" ]
+  },
+  "jonathan_sunlight_yellow_overdrive": {
+    "subtitle": "jojo.subtitle.sunlight_yellow_overdrive",
+    "sounds": [ "jojo:hamon_user/jonathan_sunlight_yellow_overdrive", "jojo:hamon_user/jonathan_sunlight_yellow_overdrive_2" ] 
+  },
+  "jonathan_zoom_punch": {
+    "subtitle": "jojo.subtitle.zoom_punch",
+    "sounds": [ "jojo:hamon_user/jonathan_zoom_punch" ]
+  },
+  "zeppeli_sunlight_yellow_overdrive": {
+    "subtitle": "jojo.subtitle.sunlight_yellow_overdrive",
+    "sounds": [ "jojo:hamon_user/zeppeli_sunlight_yellow_overdrive" ]
+  },
+  "zeppeli_hamon_of_the_sun": {
+    "subtitle": "jojo.subtitle.hamon_of_the_sun",
+    "sounds": [ "jojo:hamon_user/zeppeli_hamon_of_the_sun", "jojo:hamon_user/zeppeli_hamon_of_the_sun_2", "jojo:hamon_user/zeppeli_hamon_of_the_sun_3" ]
+  },
+  "zeppeli_this_is_sendo": {
+    "subtitle": "jojo.subtitle.this_is_sendo",
+    "sounds": [ "jojo:hamon_user/zeppeli_this_is_sendo" ]
+  },
+  "zeppeli_this_is_sendo_power": {
+    "subtitle": "jojo.subtitle.this_is_sendo_power",
+    "sounds": [ "jojo:hamon_user/zeppeli_this_is_sendo_power" ]
+  },
+  "zeppeli_zoom_punch": {
+    "subtitle": "jojo.subtitle.zoom_punch",
+    "sounds": [ "jojo:hamon_user/zeppeli_zoom_punch", "jojo:hamon_user/zeppeli_zoom_punch_2" ]
+  },
+  "zeppeli_life_magnetism_overdrive": {
+    "subtitle": "jojo.subtitle.life_magnetism_overdrive",
+    "sounds": [ "jojo:hamon_user/zeppeli_life_magnetism_overdrive" ]
+  },
+  "joseph_hamon_punch": {
+    "subtitle": "jojo.subtitle.hamon_punch",
+    "sounds": [ "jojo:hamon_user/joseph_hamon_punch" ]
+  },
+  "joseph_rebuff_overdrive": {
+    "subtitle": "jojo.subtitle.rebuff_overdrive",
+    "sounds": [ "jojo:hamon_user/joseph_rebuff_overdrive" ]
+  },
+  "joseph_hamon_overdrive_beat": {
+    "subtitle": "jojo.subtitle.hamon_overdrive_beat",
+    "sounds": [ "jojo:hamon_user/joseph_hamon_overdrive_beat", "jojo:hamon_user/joseph_hamon_overdrive_beat_2" ]
+  },
+  "joseph_zoom_punch": {
+    "subtitle": "jojo.subtitle.zoom_punch",
+    "sounds": [ "jojo:hamon_user/joseph_zoom_punch" ]
+  },
+  "joseph_barrier": {
+    "subtitle": "jojo.subtitle.hamon_barrier",
+    "sounds": [ "jojo:hamon_user/joseph_barrier" ]
+  },
+  "caesar_hamon_spark": {
+    "subtitle": "jojo.subtitle.hamon_spark",
+    "sounds": [ "jojo:hamon_user/caesar_hamon_spark" ]
+  },
+  "caesar_sun_vibration": {
+    "subtitle": "jojo.subtitle.sun_vibration",
+    "sounds": [ "jojo:hamon_user/caesar_sun_vibration" ]
+  },
+  "caesar_hamon_of_the_sun": {
+    "subtitle": "jojo.subtitle.hamon_of_the_sun",
+    "sounds": [ "jojo:hamon_user/caesar_hamon_of_the_sun" ]
+  },
+  "jonathan_overdrive_barrage": {
+    "subtitle": "jojo.subtitle.overdrive_barrage",
+    "sounds": [ "jojo:hamon_user/jonathan_overdrive_barrage" ]
+  },
+  "jonathan_scarlet_overdrive": {
+    "subtitle": "jojo.subtitle.scarlet_overdrive",
+    "sounds": [ "jojo:hamon_user/jonathan_scarlet_overdrive" ]
+  },
+  "jonathan_hamon_of_flame": {
+    "subtitle": "jojo.subtitle.hamon_of_flame",
+    "sounds": [ "jojo:hamon_user/jonathan_hamon_of_flame" ]
+  },
+  "jonathan_pluck_sword": {
+    "subtitle": "jojo.subtitle.luck_pluck_sword",
+    "sounds": [ "jojo:hamon_user/jonathan_pluck_sword" ]
+  },
+  "zeppeli_force_breath": {
+    "subtitle": "jojo.subtitle.pow",
+    "sounds": [ "jojo:hamon_user/zeppeli_pow" ]
+  },
+  "zeppeli_hamon_cutter": {
+    "subtitle": "jojo.subtitle.hamon_cutter",
+    "sounds": [ "jojo:hamon_user/zeppeli_hamon_cutter", "jojo:hamon_user/zeppeli_hamon_cutter_2" ]
+  },
+  "zeppeli_popow_pow_pow": {
+    "subtitle": "jojo.subtitle.popow_pow_pow",
+    "sounds": [ "jojo:hamon_user/zeppeli_popow_pow_pow" ]
+  },
+  "zeppeli_sendo_wave_kick": {
+    "subtitle": "jojo.subtitle.sendo_wave_kick",
+    "sounds": [ "jojo:hamon_user/zeppeli_sendo_wave_kick", "jojo:hamon_user/zeppeli_sendo_wave_kick_2" ]
+  },
+  "zeppeli_tornado_overdrive": {
+    "subtitle": "jojo.subtitle.tornado_overdrive",
+    "sounds": [ "jojo:hamon_user/zeppeli_tornado_overdrive", "jojo:hamon_user/zeppeli_tornado_overdrive_2" ]
+  },
+  "zeppeli_deep_pass": {
+    "subtitle": "jojo.subtitle.deep_pass",
+    "sounds": [ "jojo:hamon_user/zeppeli_deep_pass_overdrive" ]
+  },
+  "jonathan_deep_pass_reaction": {
+    "subtitle": "jojo.subtitle.jonathan_deep_pass_reaction",
+    "sounds": [ "jojo:hamon_user/jonathan_deep_pass_reaction" ]
+  },
+  "joseph_oh_no": {
+    "subtitle": "jojo.subtitle.oh_no",
+    "sounds": [ "jojo:hamon_user/joseph_oh_no" ]
+  },
+  "joseph_clacker_volley": {
+    "subtitle": "jojo.subtitle.clacker_volley",
+    "sounds": [ "jojo:hamon_user/joseph_clacker_volley", "jojo:hamon_user/joseph_clacker_volley_2" ]
+  },
+  "joseph_hamon_clacker_volley": {
+    "subtitle": "jojo.subtitle.hamon_clacker_volley",
+    "sounds": [ "jojo:hamon_user/joseph_hamon_clacker_volley" ]
+  },
+  "joseph_clacker_boomerang": {
+    "subtitle": "jojo.subtitle.clacker_boomerang",
+    "sounds": [ "jojo:hamon_user/joseph_clacker_boomerang" ]
+  },
+  "joseph_giggle": {
+    "subtitle": "jojo.subtitle.joseph_giggle",
+    "sounds": [ "jojo:hamon_user/joseph_giggle" ]
+  },
+  "joseph_run_away": {
+    "subtitle": "jojo.subtitle.run_away",
+    "sounds": [ "jojo:hamon_user/joseph_run_away", "jojo:hamon_user/joseph_run_away_2" ]
+  },
+  "joseph_scream": {
+    "subtitle": "jojo.subtitle.joseph_scream",
+    "sounds": [ "jojo:hamon_user/joseph_scream" ]
+  },
+  "joseph_war_declaration": {
+    "subtitle": "jojo.subtitle.war_declaration",
+    "sounds": [ "jojo:hamon_user/joseph_war_declaration" ]
+  },
+  "joseph_shoot": {
+    "subtitle": "jojo.subtitle.shoot",
+    "sounds": [ "jojo:hamon_user/joseph_shoot" ]
+  },
+  "caesar_bubble_launcher": {
+    "subtitle": "jojo.subtitle.bubble_launcher",
+    "sounds": [ "jojo:hamon_user/caesar_bubble_launcher" ]
+  },
+  "caesar_secret_hamon_bubble_launcher": {
+    "subtitle": "jojo.subtitle.secret_hamon_bubble_launcher",
+    "sounds": [ "jojo:hamon_user/caesar_secret_hamon_bubble_launcher" ]
+  },
+  "caesar_bubble_barrier": {
+    "subtitle": "jojo.subtitle.bubble_barrier",
+    "sounds": [ "jojo:hamon_user/caesar_bubble_barrier" ]
+  },
+  "caesar_bubble_cutter": {
+    "subtitle": "jojo.subtitle.bubble_cutter",
+    "sounds": [ "jojo:hamon_user/caesar_bubble_cutter" ]
+  },
+  "caesar_disc_shaped_hamon_cutter": {
+    "subtitle": "jojo.subtitle.disc_shaped_hamon_cutter",
+    "sounds": [ "jojo:hamon_user/caesar_disc_shaped_hamon_cutter" ]
+  },
+  "caesar_bubble_cutter_gliding": {
+    "subtitle": "jojo.subtitle.bubble_cutter_gliding",
+    "sounds": [ "jojo:hamon_user/caesar_bubble_cutter_gliding" ]
+  },
+  "caesar_last_hamon": {
+    "subtitle": "jojo.subtitle.caesar_last_hamon",
+    "sounds": [ "jojo:hamon_user/caesar_last_hamon" ]
+  },
+  "joseph_crimson_bubble_reaction": {
+    "subtitle": "jojo.subtitle.joseph_crimson_bubble_reaction",
+    "sounds": [ "jojo:hamon_user/joseph_crimson_bubble_reaction" ]
+  },
+  "lisa_lisa_aja_stone": {
+    "subtitle": "jojo.subtitle.aja_stone",
+    "sounds": [ "jojo:hamon_user/lisa_lisa_aja_stone" ]
+  },
+  "lisa_lisa_super_aja": {
+    "subtitle": "jojo.subtitle.super_aja",
+    "sounds": [ "jojo:hamon_user/lisa_lisa_super_aja" ]
+  },
+  "lisa_lisa_snake_muffler": {
+    "subtitle": "jojo.subtitle.snake_muffler",
+    "sounds": [ "jojo:hamon_user/lisa_lisa_snake_muffler" ]
+  },
+  
+  "stand_summon_default": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [ "jojo:stand/stand_summon" ]
+  },
+  "stand_unsummon_default": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [ "jojo:stand/stand_unsummon" ]
+  },
+  "stand_damage_block": {
+    "subtitle": "jojo.subtitle.stand_damage_block",
+    "sounds": [ "jojo:attack_block_1", "jojo:attack_block_2" ]
+  },
+  "stand_punch_light": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/stand_punch_light", "jojo:stand/stand_punch_light_2", "jojo:stand/stand_punch_light_3", "jojo:stand/stand_punch_light_4" ]
+  },
+  "stand_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [ "jojo:stand/stand_punch_heavy" ]
+  },
+  "stand_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/stand_punch_light", "jojo:stand/stand_punch_light_2", "jojo:stand/stand_punch_light_3", "jojo:stand/stand_punch_light_4" ]
+  },
+  "stand_crash": {
+    "subtitle": "jojo.subtitle.stand_crash",
+    "sounds": [ "jojo:stand/stand_parry" ]
+  },
+  "stand_parry": {
+    "subtitle": "jojo.subtitle.stand_attack_parried",
+    "sounds": [ "jojo:stand/stand_parry" ]
+  },
+  "stand_leap": {
+    "sounds": [ "jojo:stand/stand_leap" ]
+  },
+  
+  
+  
+  "jotaro_star_finger": {
+    "subtitle": "jojo.subtitle.star_finger_name",
+    "sounds": [ "jojo:stand_user/jotaro_star_finger" ]
+  },
+  "star_platinum_punch_light": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/star_platinum_punch_light" ]
+  },
+  "star_platinum_star_finger": {
+    "sounds": [ "jojo:stand/star_platinum_star_finger" ]
+  },
+  "star_platinum_zoom": {
+    "sounds": [ "jojo:stand/star_platinum_zoom" ]
+  },
+  "star_platinum_zoom_click": {
+    "sounds": [ "jojo:stand/star_platinum_zoom_click" ]
+  },
+  "star_platinum_inhale": {
+    "subtitle": "jojo.subtitle.inhale",
+    "sounds": [ 
+      {
+        "name": "item/elytra/elytra_loop",
+        "pitch" : 2.0
+      }
+    ]
+  },
+  "star_platinum_time_stop": {
+    "sounds": [ "jojo:stand/star_platinum_time_stop" ]
+  },
+  "star_platinum_time_resume": {
+    "sounds": [ "jojo:stand/star_platinum_time_resume" ]
+  },
+  "star_platinum_time_stop_blink": {
+    "sounds": [ "jojo:stand/star_platinum_time_stop_blink" ]
+  },
+  
+  
+  
+  "dio_this_is_the_world": {
+    "subtitle": "jojo.subtitle.this_is_the_world",
+    "sounds": [ "jojo:stand_user/dio_this_is_the_world", "jojo:stand_user/dio_this_is_the_world_2" ]
+  },
+  "dio_5_seconds": {
+    "subtitle": "jojo.subtitle.5_seconds",
+    "sounds": [ "" ]
+  },
+  "dio_one_more": {
+    "subtitle": "jojo.subtitle.one_more",
+    "sounds": [ "" ]
+  },
+  "dio_cant_move": {
+    "subtitle": "jojo.subtitle.cant_move",
+    "sounds": [ "" ]
+  },
+  "jonathan_the_world": {
+    "subtitle": "jojo.subtitle.the_world_name",
+    "sounds": [ "" ]
+  },
+  "the_world_punch_light": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/the_world_punch_light" ]
+  },
+  "the_world_kick_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [ "jojo:stand/the_world_kick_heavy" ]
+  },
+  "the_world_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [ "jojo:stand/the_world_summon", "jojo:stand/the_world_summon_2" ]
+  },
+  
+  "rero": {
+    "subtitle": "jojo.subtitle.rero",
+    "sounds": [ "jojo:stand_user/rero" ]
+  },
+  "hierophant_green_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [ "jojo:stand/hierophant_green_summon", "jojo:stand/hierophant_green_summon_2" ]
+  },
+  "hierophant_green_tentacles": {
+    "sounds": [ "jojo:stand/hierophant_green_tentacles" ]
+  },
+  "hierophant_green_emerald_splash": {
+    "sounds": [ "jojo:stand/hierophant_green_emerald_splash", "jojo:stand/hierophant_green_emerald_splash_2", "jojo:stand/hierophant_green_emerald_splash_3" ]
+  },
+  "hierophant_green_barrier_placed": {
+    "sounds": [ "jojo:stand/hierophant_green_barrier_ripped" ]
+  },
+  "hierophant_green_barrier_ripped": {
+    "sounds": [ "jojo:stand/hierophant_green_barrier_ripped" ]
+  },
+  "hierophant_green_grapple_catch": {
+    "sounds": [ "jojo:water_splash" ]
+  },
+  
+  
+  
+  "polnareff_fencing": {
+    "subtitle": "jojo.subtitle.polnareff_fencing",
+    "sounds": [ "" ]
+  },
+  "silver_chariot_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [ "jojo:stand/silver_chariot_summon" ]
+  },
+  "silver_chariot_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [ "jojo:stand/silver_chariot_unsummon", "jojo:stand/silver_chariot_unsummon_2" ]
+  },
+  "silver_chariot_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/silver_chariot_barrage", "jojo:stand/silver_chariot_barrage_2" ]
+  },
+  "silver_chariot_sweep_light": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ 
+      {
+        "name": "entity.player.attack.sweep",
+        "type": "event"
+      } 
+    ]
+  },
+  "silver_chariot_dash": {
+    "sounds": [ "jojo:stand/silver_chariot_summon" ]
+  },
+  "silver_chariot_sweep_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [ 
+      {
+        "name": "entity.player.attack.sweep",
+        "type": "event"
+      } 
+    ]
+  },
+  "silver_chariot_block": {
+    "subtitle": "jojo.subtitle.stand_damage_block",
+    "sounds": [
+      {
+        "name": "minecraft:entity.player.hurt",
+        "type": "event"
+      }
+    ]
+  },
+  "silver_chariot_rapier_shot": {
+    "sounds": [ "jojo:stand/silver_chariot_rapier_shot" ]
+  },
+  "silver_chariot_armor_off": {
+    "sounds": [ "jojo:stand/silver_chariot_armor_off" ]
+  },
+  
+  
+  
+  "avdol_hell_2_u": {
+    "subtitle": "jojo.subtitle.hell_2_u",
+    "sounds": [ "jojo:stand_user/avdol_hell_2_u" ]
+  },
+  "magicians_red_punch_light": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_light",
+        "type": "event"
+      }
+    ]
+  },
+  "magicians_red_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "magicians_red_kick_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "magicians_red_fire_ability": {
+    "subtitle": "jojo.subtitle.fire_ability",
+    "sounds": [ "minecraft:mob/ghast/fireball4" ]
+  },
+  "josuke_fix": {
+    "subtitle": "jojo.subtitle.fix",
+    "sounds": [ "jojo:stand_user/josuke_fix" ]
+  },
+  "crazy_diamond_punch_light": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/crazy_diamond_punch_light", "jojo:stand/crazy_diamond_punch_light_2", "jojo:stand/crazy_diamond_punch_light_3" ]
+  },
+  "crazy_diamond_fix_started": {
+    "subtitle": "jojo.subtitle.fixed",
+    "sounds": [ "jojo:stand/crazy_diamond_restoration_start" ]
+  },
+  "crazy_diamond_fix_loop": {
+    "subtitle": "jojo.subtitle.fixed",
+    "sounds": [ "jojo:stand/crazy_diamond_restoration_loop" ]
+  },
+  "crazy_diamond_fix_ended": {
+    "subtitle": "jojo.subtitle.fixed",
+    "sounds": [ "jojo:stand/crazy_diamond_restoration_over" ]
+  },
+  "crazy_diamond_bullet_shot": {
+    "subtitle": "jojo.subtitle.shot",
+    "sounds": [ "jojo:stand/crazy_diamond_bullet_shot" ]
+  },
+  "crazy_diamond_blood_cutter_shot": {
+    "subtitle": "jojo.subtitle.shot",
+    "sounds": [
+      {
+        "name": "jojo:water_splash",
+        "type": "event"
+      }
+    ]
+  },
+  
+  
+  "star_platinum_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ 
+      {
+        "name": "jojo:stand/star_platinum_punch_light",
+        "weight" : 3
+      },
+      {
+        "name": "jojo:stand/star_platinum_punch_barrage",
+        "weight" : 1
+      }
+    ]
+  },
+  "star_platinum_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [ "jojo:stand/star_platinum_punch_heavy", "jojo:stand/star_platinum_punch_heavy_2" ]
+  },
+  "star_platinum_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [ "jojo:stand/star_platinum_summon", "jojo:stand/star_platinum_summon_2", "jojo:stand/star_platinum_summon_3" ]
+  },
+  "star_platinum_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [ "jojo:stand/star_platinum_unsummon" ]
+  },
+  "the_world_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/the_world_punch_light" ]
+  },
+  "the_world_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [  "jojo:stand/the_world_punch_heavy"]
+  },
+  "the_world_punch_heavy_entity": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [ "jojo:stand/the_world_punch_heavy_entity" ]
+  },
+  "the_world_punch_heavy_ts_impact": {
+    "sounds": [ "jojo:stand/the_world_punch_heavy_impact" ]
+  },
+  "the_world_time_stop": {
+    "sounds": [ "jojo:stand/the_world_time_stop" ]
+  },
+  "the_world_time_resume": {
+    "sounds": [ "jojo:stand/the_world_time_resume" ]
+  },
+  "the_world_time_stop_blink": {
+    "sounds": [ "jojo:stand/the_world_time_stop_blink" ]
+  },
+  "the_world_time_stop_unrevealed": {
+    "sounds": [ "jojo:stand/the_world_time_stop_unrevealed" ]
+  },
+  "road_roller_hit": {
+    "subtitle": "jojo.subtitle.road_roller_hit",
+    "sounds": [ "jojo:road_roller_hit", "jojo:road_roller_hit_2", "jojo:road_roller_hit_3" ]
+  },
+  "road_roller_land": {
+    "subtitle": "jojo.subtitle.road_roller_land",
+    "sounds": [ "jojo:road_roller_land" ]
+  },
+  "magicians_red_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [ "jojo:stand/magicians_red_summon", "jojo:stand/magicians_red_summon_2" ]
+  },
+  
+  
+  
+  
+  
+  
+  
+  
+  "jotaro_star_platinum": {
+    "subtitle": "jojo.subtitle.star_platinum_name",
+    "sounds": [ "jojo:af/tts/star_platinum" ]
+  },
+  "jotaro_star_platinum_the_world": {
+    "subtitle": "jojo.subtitle.star_platinum_the_world",
+    "sounds": [  "jojo:af/tts/star_platinum_the_world" ] 
+  },
+  "jotaro_time_resumes_dasu": {
+    "subtitle": "jojo.subtitle.time_resumes.dasu",
+    "sounds": [ ]
+  },
+  "jotaro_time_resumes_hajimeta": {
+    "subtitle": "jojo.subtitle.time_resumes.hajimeta",
+    "sounds": [ ]
+  },
+  "star_platinum_ora": {
+    "subtitle": "jojo.subtitle.ora",
+    "sounds": [ "jojo:af/tts/star_platinum_ora" ]
+  },
+  "star_platinum_ora_long": {
+    "subtitle": "jojo.subtitle.ora",
+    "sounds": [ "jojo:af/tts/star_platinum_ora" ]
+  },
+  "star_platinum_ora_ora_ora": {
+    "subtitle": "jojo.subtitle.ora_ora_ora",
+    "sounds": [ "jojo:af/tts/star_platinum_ora_ora_ora" ]
+  },
+  
+  "dio_die": {
+    "subtitle": "jojo.subtitle.die",
+    "sounds": [  ] 
+  },
+  "dio_the_world": {
+    "subtitle": "jojo.subtitle.the_world_name",
+    "sounds": [ "jojo:af/tts/the_world" ] 
+  },
+  "dio_muda": {
+    "subtitle": "jojo.subtitle.muda",
+    "sounds": [ "jojo:af/tts/the_world_muda" ]
+  },
+  "dio_muda_muda": {
+    "subtitle": "jojo.subtitle.muda_muda_muda",
+    "sounds": [  ]
+  },
+  "dio_wry": {
+    "subtitle": "jojo.subtitle.wry",
+    "sounds": [  ]
+  },
+  "dio_toki_yo_tomare": {
+    "subtitle": "jojo.subtitle.toki_yo_tomare",
+    "sounds": [ "jojo:af/tts/the_world_time_stop" ] 
+  },
+  "dio_tomare_toki_yo": {
+    "subtitle": "jojo.subtitle.tomare_toki_yo",
+    "sounds": [ "jojo:af/tts/the_world_time_stop" ] 
+  },
+  "dio_time_resumes": {
+    "subtitle": "jojo.subtitle.time_resumes.dasu",
+    "sounds": [  ]
+  },
+  "dio_times_up": {
+    "subtitle": "jojo.subtitle.times_up",
+    "sounds": [  ]
+  },
+  "dio_zero": {
+    "subtitle": "jojo.subtitle.zero",
+    "sounds": [  ]
+  },
+  "dio_road_roller": {
+    "subtitle": "jojo.subtitle.rodo_rolla_da",
+    "sounds": [ "jojo:af/tts/road_roller" ]
+  },
+  "the_world_muda_muda_muda": {
+    "subtitle": "jojo.subtitle.muda_muda_muda",
+    "sounds": [ "jojo:af/tts/the_world_muda_muda_muda" ]
+  },
+  
+  "kakyoin_hierophant_green": {
+    "subtitle": "jojo.subtitle.hierophant_green_name",
+    "sounds": [ "jojo:af/tts/hierophant_green" ]
+  },
+  "kakyoin_hierophant": {
+    "subtitle": "jojo.subtitle.hierophant_green_name_short",
+    "sounds": [ "jojo:af/tts/hierophant_green" ]
+  },
+  "kakyoin_emerald_splash": {
+    "subtitle": "jojo.subtitle.emerald_splash_name",
+    "sounds": [ "jojo:af/tts/emerald_splash" ]
+  },
+  
+  "polnareff_silver_chariot": {
+    "subtitle": "jojo.subtitle.silver_chariot_name",
+    "sounds": [ "jojo:af/tts/silver_chariot" ]
+  },
+  "polnareff_chariot": {
+    "subtitle": "jojo.subtitle.silver_chariot_name_short",
+    "sounds": [ "jojo:af/tts/silver_chariot" ]
+  },
+  "polnareff_hora_hora_hora": {
+    "subtitle": "jojo.subtitle.hora_hora_hora",
+    "sounds": [ "jojo:af/tts/silver_chariot_hora_hora_hora" ]
+  },
+  
+  "avdol_magicians_red": {
+    "subtitle": "jojo.subtitle.magicians_red_name",
+    "sounds": [ "jojo:af/tts/magicians_red" ]
+  },
+  "avdol_crossfire_hurricane": {
+    "subtitle": "jojo.subtitle.crossfire_hurricane_name",
+    "sounds": [ "jojo:af/tts/crossfire_hurricane" ]
+  },
+  "avdol_crossfire_hurricane_special": {
+    "subtitle": "jojo.subtitle.crossfire_hurricane_special_name",
+    "sounds": [ "jojo:af/tts/crossfire_hurricane_special" ]
+  },
+  "avdol_red_bind": {
+    "subtitle": "jojo.subtitle.red_bind_name",
+    "sounds": [ "jojo:af/tts/red_bind" ]
+  },
+  
+  "josuke_crazy_diamond": {
+    "subtitle": "jojo.subtitle.crazy_diamond_name",
+    "sounds": [ "jojo:af/tts/crazy_diamond" ]
+  },
+  "crazy_diamond_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [ "jojo:stand/crazy_diamond_summon", "jojo:stand/crazy_diamond_summon_2" ]
+  },
+  "crazy_diamond_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [ "jojo:stand/crazy_diamond_unsummon" ]
+  },
+  "crazy_diamond_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [ "jojo:stand/crazy_diamond_punch_light", "jojo:stand/crazy_diamond_punch_light_2", "jojo:stand/crazy_diamond_punch_light_3" ]
+  },
+  "crazy_diamond_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [ "jojo:stand/crazy_diamond_punch_heavy", "jojo:stand/crazy_diamond_punch_heavy_2" ]
+  },
+  "crazy_diamond_dora": {
+    "subtitle": "jojo.subtitle.dora",
+    "sounds": [ "jojo:af/tts/crazy_diamond_dora" ]
+  },
+  "crazy_diamond_dora_long": {
+    "subtitle": "jojo.subtitle.dora",
+    "sounds": [ "jojo:af/tts/crazy_diamond_dora" ]
+  },
+  "crazy_diamond_dorarara": {
+    "subtitle": "jojo.subtitle.dorarara",
+    "sounds": [ "jojo:af/tts/crazy_diamond_dorarara" ]
+  },
+  
+  
+  
+  "tennille_dark_blue_moon": {
+    "sounds": [ "jojo:af/tts/dark_blue_moon" ]
+  },
+  "kira_killer_queen": {
+    "sounds": [ "jojo:af/tts/killer_queen" ]
+  },
+  "okuyasu_the_hand": {
+    "sounds": [ "jojo:af/tts/the_hand" ]
+  },
+  "koichi_echoes_act_3": {
+    "sounds": [ "jojo:af/tts/echoes_act_3" ]
+  },
+  "rohan_heavens_door": {
+    "sounds": [ "jojo:af/tts/heavens_door" ]
+  },
+  "ken_boy_ii_man": {
+    "sounds": [ "jojo:af/tts/boy_ii_man" ]
+  },
+  "giorno_gold_experience": {
+    "sounds": [ "jojo:af/tts/gold_experience" ]
+  },
+  "giorno_gold_experience_requiem": {
+    "sounds": [ "jojo:af/tts/gold_experience_requiem" ]
+  },
+  "diavolo_king_crimson": {
+    "sounds": [ "jojo:af/tts/king_crimson" ]
+  },
+  "bruno_sticky_fingers": {
+    "sounds": [ "jojo:af/tts/sticky_fingers" ]
+  },
+  "fugo_purple_haze": {
+    "sounds": [ "jojo:af/tts/purple_haze" ]
+  },
+  "sale_kraft_work": {
+    "sounds": [ "jojo:af/tts/kraft_work" ]
+  },
+  "polnareff_chariot_requiem": {
+    "sounds": [ "jojo:af/tts/chariot_requiem" ]
+  },
+  "risotto_metallica": {
+    "sounds": [ "jojo:af/tts/metallica" ]
+  },
+  "pesci_beach_boy": {
+    "sounds": [ "jojo:af/tts/beach_boy" ]
+  },
+  "cioccolata_green_day": {
+    "sounds": [ "jojo:af/tts/green_day" ]
+  },
+  "jolyne_stone_free": {
+    "sounds": [ "jojo:af/tts/stone_free" ]
+  },
+  "pucci_whitesnake": {
+    "sounds": [ "jojo:af/tts/whitesnake" ]
+  },
+  "pucci_c_moon": {
+    "sounds": [ "jojo:af/tts/c_moon" ]
+  },
+  "pucci_made_in_heaven": {
+    "sounds": [ "jojo:af/tts/made_in_heaven" ]
+  },
+  "ermes_kiss": {
+    "sounds": [ "jojo:af/tts/kiss" ]
+  },
+  "wes_weather_report": {
+    "sounds": [ "jojo:af/tts/weather_report" ]
+  },
+  "anasui_diver_down": {
+    "sounds": [ "jojo:af/tts/diver_down" ]
+  },
+  "maxx_limp_bizkit": {
+    "sounds": [ "jojo:af/tts/limp_bizkit" ]
+  },
+  "lang_jumpin_jack_flash": {
+    "sounds": [ "jojo:af/tts/jumpin_jack_flash" ]
+  },
+  "johnny_tusk_act_4": {
+    "sounds": [ "jojo:af/tts/tusk_act_4" ]
+  },
+  "valentine_d4c": {
+    "sounds": [ "jojo:af/tts/d4c" ]
+  },
+  "josuke_soft_and_wet": {
+    "sounds": [ "jojo:af/tts/soft_and_wet" ]
+  },
+  "toru_wonder_of_u": {
+    "sounds": [ "jojo:af/tts/wonder_of_u" ]
+  },
+
+  "rohan_safety_lock": {
+    "sounds": [ "jojo:af/tts/safety_lock" ]
+  },
+  "bruno_arrivederci": {
+    "sounds": [ "jojo:af/tts/sticky_fingers_arrivederci" ]
+  },
+    
+  "gold_experience_muda_muda_muda": {
+    "sounds": [ "jojo:af/tts/gold_experience_muda_muda_muda" ]
+  },
+  "gold_experience_muda": {
+    "sounds": [ "jojo:af/tts/gold_experience_muda" ]
+  },
+  "sticky_fingers_ari_ari_ari": {
+    "sounds": [ "jojo:af/tts/sticky_fingers_ari_ari_ari" ]
+  },
+  "stone_free_ora_ora_ora": {
+    "sounds": [ "jojo:af/tts/stone_free_ora_ora_ora" ]
+  },
+  "stone_free_ora": {
+    "sounds": [ "jojo:af/tts/stone_free_ora" ]
+  },
+  "tusk_act_4_ora_ora_ora": {
+    "sounds": [ "jojo:af/tts/tusk_act_4_ora_ora_ora" ]
+  },
+  "tusk_act_4_ora": {
+    "sounds": [ "jojo:af/tts/tusk_act_4_ora" ]
+  },
+  "soft_and_wet_ora_ora_ora": {
+    "sounds": [ "jojo:af/tts/soft_and_wet_ora_ora_ora" ]
+  },
+  "soft_and_wet_ora": {
+    "sounds": [ "jojo:af/tts/soft_and_wet_ora" ]
+  },
+    
+  "dark_blue_moon_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "killer_queen_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "the_hand_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "echoes_act_3_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "heavens_door_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "boy_ii_man_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "gold_experience_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "gold_experience_requiem_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "king_crimson_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "sticky_fingers_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "purple_haze_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "kraft_work_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "green_day_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "stone_free_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "whitesnake_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "kiss_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "weather_report_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "diver_down_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "tusk_act_4_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "d4c_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "soft_and_wet_punch_barrage": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:star_platinum_punch_barrage",
+        "type": "event"
+      }
+    ]
+  },
+  "dark_blue_moon_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "killer_queen_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "the_hand_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "echoes_act_3_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "heavens_door_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "boy_ii_man_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "gold_experience_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "gold_experience_requiem_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "king_crimson_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "sticky_fingers_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "purple_haze_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "kraft_work_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "green_day_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "stone_free_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "whitesnake_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "c_moon_punch_light": {
+    "subtitle": "jojo.subtitle.stand_attack_light",
+    "sounds": [
+      {
+        "name": "jojo:crazy_diamond_punch_light",
+        "type": "event"
+      }
+    ]
+  },
+  "kiss_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "weather_report_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "diver_down_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "tusk_act_4_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "d4c_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "soft_and_wet_punch_heavy": {
+    "subtitle": "jojo.subtitle.stand_attack_strong",
+    "sounds": [
+      {
+        "name": "jojo:stand_punch_heavy",
+        "type": "event"
+      }
+    ]
+  },
+  "dark_blue_moon_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "killer_queen_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "the_hand_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "echoes_act_3_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "heavens_door_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "boy_ii_man_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "gold_experience_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "gold_experience_requiem_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "king_crimson_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "sticky_fingers_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "purple_haze_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "kraft_work_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "chariot_requiem_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "beach_boy_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "green_day_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "stone_free_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "whitesnake_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "c_moon_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "made_in_heaven_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "kiss_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "weather_report_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "diver_down_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "limp_bizkit_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "jumpin_jack_flash_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "tusk_act_4_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "d4c_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "soft_and_wet_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "wonder_of_u_summon": {
+    "subtitle": "jojo.subtitle.stand_summon",
+    "sounds": [
+      {
+        "name": "jojo:stand_summon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+    
+  "dark_blue_moon_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "killer_queen_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "the_hand_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "echoes_act_3_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "heavens_door_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "boy_ii_man_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "gold_experience_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "gold_experience_requiem_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "king_crimson_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "sticky_fingers_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "purple_haze_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "kraft_work_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "chariot_requiem_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "beach_boy_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "green_day_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "stone_free_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "whitesnake_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "c_moon_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "made_in_heaven_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "kiss_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "weather_report_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "diver_down_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "jumpin_jack_flash_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "tusk_act_4_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "d4c_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "soft_and_wet_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+
+  "wonder_of_u_unsummon": {
+    "subtitle": "jojo.subtitle.stand_unsummon",
+    "sounds": [
+      {
+        "name": "jojo:stand_unsummon_default",
+        "type": "event"
+      }
+    ]
+  },
+    
+  "killer_queen_detonate": {
+    "sounds": [ "jojo:af/sfx/killer_queen_detonate" ]
+  },
+  "the_hand_erase": {
+    "sounds": [ "jojo:af/sfx/the_hand_erase" ]
+  },
+  "echoes_three_freeze": {
+    "sounds": [ "jojo:af/sfx/echoes_three_freeze" ]
+  },
+  "gold_experience_life_creation": {
+    "sounds": [ "jojo:af/sfx/gold_experience_life_creation" ]
+  },
+  "king_crimson_time_erase": {
+    "sounds": [ "jojo:af/sfx/king_crimson_time_erase" ]
+  },
+  "sticky_fingers_zipper": {
+    "sounds": [ "jojo:af/sfx/sticky_fingers_zipper" ]
+  }
+}

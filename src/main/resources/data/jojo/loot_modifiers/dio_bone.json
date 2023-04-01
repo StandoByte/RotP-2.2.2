@@ -1,0 +1,19 @@
+{
+  "type": "jojo:additional_single_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "predicate": {
+        "type": "minecraft:stray"
+      },
+      "entity": "this"
+    },
+    {
+      "condition": "random_chance",
+      "chance": 0.02
+    }
+  ],
+  "additional_item": {
+    "name": "jojo:dio_bone"
+  }
+}
