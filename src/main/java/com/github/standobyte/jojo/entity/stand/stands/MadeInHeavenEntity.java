@@ -11,20 +11,18 @@ import net.minecraft.network.datasync.DataSerializers;
 import net.minecraft.network.datasync.EntityDataManager;
 import net.minecraft.potion.EffectInstance;
 import net.minecraft.potion.Effects;
-import net.minecraft.util.Util;
-import net.minecraft.util.text.StringTextComponent;
-import net.minecraft.util.text.TextFormatting;
 import net.minecraft.world.World;
 import net.minecraft.world.server.ServerWorld;
 
 public class MadeInHeavenEntity extends StandEntity {
-    private static boolean warned = false;
     private static final DataParameter<Integer> DED_TICK = EntityDataManager.defineId(MadeInHeavenEntity.class, DataSerializers.INT);
     
     public MadeInHeavenEntity(StandEntityType<? extends StandEntity> type, World world) {
         super(type, world);
     }
     
+    private static final long NO_SEIZURE_TICKS = 400; // a day each 3 seconds
+    private long ticksNotAdded = 0;
     @Override
     public void tick() {
         super.tick();
@@ -35,13 +33,14 @@ public class MadeInHeavenEntity extends StandEntity {
         }
 
         long ticks = (long) Math.exp(Math.min((tickCount - entityData.get(DED_TICK)) / 512.0, 144));
-        
-        if (!level.isClientSide() && ticks >= 15 && !warned) {
-            ((ServerWorld) level).players().forEach(player -> {
-                player.sendMessage(new StringTextComponent("Epipelsy warning: leaving Made in Heaven summoned for too long will create flashing lights")
-                        .withStyle(TextFormatting.UNDERLINE), Util.NIL_UUID);
-            });
-            warned = true;
+        if (ticks > NO_SEIZURE_TICKS) {
+            ticksNotAdded += ticks - NO_SEIZURE_TICKS;
+            ticks = NO_SEIZURE_TICKS;
+        }
+        if (ticksNotAdded >= 192000) { // 24000 * 8 to not switch moon phases
+            long timeToAdd = ticksNotAdded / 192000 * 192000;
+            ticksNotAdded -= timeToAdd;
+            ticks += timeToAdd;
         }
         
         if (getCurrentTaskAction() != ModStandActions.UNSUMMON_STAND_ENTITY.get()) {
@@ -50,10 +49,10 @@ public class MadeInHeavenEntity extends StandEntity {
                     ((ServerWorld) level).players().forEach(player -> {
                         if (player != user) {
                             player.kill();
-                            entityData.set(DED_TICK, tickCount);
-                            ((ServerWorld) level).setDayTime(0);
                         }
                     });
+                    entityData.set(DED_TICK, tickCount);
+                    ((ServerWorld) level).setDayTime(0);
                 }
             }
             else {
